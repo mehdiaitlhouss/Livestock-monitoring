@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "623452809339",
+    "project_id": "livestock-monitoring-e645e",
+    "storage_bucket": "livestock-monitoring-e645e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623452809339:android:1b78927778ba71b9721ade",
+        "android_client_info": {
+          "package_name": "com.miola.livestockmonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623452809339-jgtjo3ckrt1bmhjc6m57huo70bboicqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUfBlOxxUX7FY_HJqmmwiLF7Ofba_Z2Ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623452809339-jgtjo3ckrt1bmhjc6m57huo70bboicqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
