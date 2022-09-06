@@ -120,12 +120,13 @@ public class SignIn extends AppCompatActivity
                     passwordLogin.setErrorEnabled(false);
 
                     firebaseUser = firebaseAuth.getCurrentUser();
+
                     databaseReference.child(firebaseUser.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
-                        public void onDataChange(@NonNull DataSnapshot snapshot) {
-                            if (snapshot.exists())
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            if (dataSnapshot.exists())
                             {
-                                User user = snapshot.getValue(User.class);
+                                User user = dataSnapshot.getValue(User.class);
 
                                 if (user != null){
                                     CurrentUser.setCurrentUser(user);
@@ -133,21 +134,12 @@ public class SignIn extends AppCompatActivity
                                 else {
                                     Toast.makeText(SignIn.this, "user is null", Toast.LENGTH_SHORT).show();
                                 }
-
-//                                System.out.println(firebaseUser.getUid());
-//                                String passwordFromDB = snapshot.child(firebaseUser.getUid()).child("password").getValue(String.class);
-//                                String nameFromDB = snapshot.child(firebaseUser.getUid()).child("name").getValue(String.class);
-//                                String usernameFromDB = snapshot.child(firebaseUser.getUid()).child("username").getValue(String.class);
-//                                String emailFromDB = snapshot.child(firebaseUser.getUid()).child("email").getValue(String.class);
-//                                String phoneNumberFromDB = snapshot.child(firebaseUser.getUid()).child("phoneNumber").getValue(String.class);
-//
-//                                User user = new User(nameFromDB, usernameFromDB, emailFromDB, phoneNumberFromDB, passwordFromDB);
                             }
                         }
 
                         @Override
-                        public void onCancelled(@NonNull DatabaseError error) {
-
+                        public void onCancelled(DatabaseError databaseError) {
+                            System.out.println("The read failed: " + databaseError.getCode());
                         }
                     });
 

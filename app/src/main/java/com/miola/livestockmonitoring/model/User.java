@@ -1,6 +1,11 @@
 package com.miola.livestockmonitoring.model;
 
+import androidx.annotation.Keep;
 
+import java.util.HashMap;
+import java.util.Map;
+
+@Keep
 public class User
 {
     private String name;
@@ -8,6 +13,16 @@ public class User
     private String email;
     private String phoneNumber;
     private String password;
+    private Map<String, Cow> cows = new HashMap<>();
+
+    public User(String name, String username, String email, String phoneNumber, String password, Map<String, Cow> cows) {
+        this.name = name;
+        this.username = username;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.password = password;
+        this.cows = cows;
+    }
 
     public User(String name, String username, String email, String phoneNumber, String password) {
         this.name = name;
@@ -60,6 +75,14 @@ public class User
         this.password = password;
     }
 
+    public Map<String, Cow> getCows() {
+        return cows;
+    }
+
+    public void setCows(Map<String, Cow> cows) {
+        this.cows = cows;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -68,6 +91,7 @@ public class User
                 ", email='" + email + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", password='" + password + '\'' +
+                ", cows=" + cows +
                 '}';
     }
 }
