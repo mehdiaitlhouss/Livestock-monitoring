@@ -16,16 +16,29 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/layout/header.xml" value="0.25" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/layout/slides_layout.xml" value="0.264" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/menu/main_menu.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable-v24/home_icon.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable-v24/login_icon.xml" value="0.149" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable-v24/logout_icon.xml" value="0.149" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable-v24/rate_icon.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable-v24/share_icon.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable/skip_icon.xml" value="0.149" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_all_category.xml" value="0.264" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_bus.xml" value="0.21014492753623187" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_dashboard.xml" value="0.136" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_map.xml" value="0.1" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_on_boarding.xml" value="0.1" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_second.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/header.xml" value="0.2" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/slides_layout.xml" value="0.25" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/menu/main_menu.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.149" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.149" />
       </map>
     </option>
   </component>
@@ -34,5 +47,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
   </component>
 </project>

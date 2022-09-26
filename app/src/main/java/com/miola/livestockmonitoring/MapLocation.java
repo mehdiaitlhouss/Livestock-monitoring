@@ -1,8 +1,5 @@
 package com.miola.livestockmonitoring;
 
-import androidx.annotation.NonNull;
-import androidx.fragment.app.FragmentActivity;
-
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -14,6 +11,9 @@ import android.os.Bundle;
 import android.os.Looper;
 import android.provider.Settings;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.fragment.app.FragmentActivity;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;
@@ -41,11 +41,8 @@ import com.karumi.dexter.listener.single.PermissionListener;
 import com.miola.livestockmonitoring.databinding.ActivityMapBinding;
 import com.miola.livestockmonitoring.helpers.CurrentUser;
 import com.miola.livestockmonitoring.model.Cow;
-import com.miola.livestockmonitoring.model.User;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 
@@ -180,7 +177,7 @@ public class MapLocation extends FragmentActivity implements OnMapReadyCallback 
             // create a new marker
             MarkerOptions markerOptions = new MarkerOptions();
             markerOptions.position(latLng);
-            markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_person_18));
+            markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.farmer_icon));
             //          markerOptions.rotation(location.getBearing());
             markerOptions.anchor((float) 0.5, (float) 0.5);
             userLocationMarker = mMap.addMarker(markerOptions);
