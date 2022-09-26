@@ -102,7 +102,8 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
     {
         switch (Integer.parseInt(view.getTag().toString()))
         {
-            case 10 : startActivity(new Intent(this, MapLocation.class));
+            case 10 : startActivity(new Intent(this, MapLocation.class));break;
+            case 20 : startActivity(new Intent(this, AllCategory.class));break;
         }
     }
 }

@@ -3,6 +3,7 @@ package com.miola.livestockmonitoring;
 import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.util.Pair;
 import android.view.View;
 import android.view.WindowManager;
@@ -121,15 +122,20 @@ public class SignIn extends AppCompatActivity
 
                     firebaseUser = firebaseAuth.getCurrentUser();
 
-                    databaseReference.child(firebaseUser.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
+                    databaseReference.child(firebaseUser.getUid()).addValueEventListener(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
                             if (dataSnapshot.exists())
                             {
                                 User user = dataSnapshot.getValue(User.class);
 
+                                Log.d("mehdi", user.toString());
+
+                                System.out.println(user);
+
                                 if (user != null){
                                     CurrentUser.setCurrentUser(user);
+                                    System.out.println(user);
                                 }
                                 else {
                                     Toast.makeText(SignIn.this, "user is null", Toast.LENGTH_SHORT).show();
@@ -143,6 +149,7 @@ public class SignIn extends AppCompatActivity
                         }
                     });
 
+                    System.out.println(CurrentUser.getCurrentUser());
                     Toast.makeText(SignIn.this, "User logged in successfully", Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(SignIn.this, Dashboard.class));
                 }
