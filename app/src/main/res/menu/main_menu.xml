@@ -13,13 +13,13 @@
 
         <item
             android:id="@+id/nav_bus"
-            android:icon="@drawable/logout_icon"
+            android:icon="@drawable/cow_icon"
             android:title="Animals" />
 
         <item
             android:id="@+id/nav_plane"
             android:icon="@drawable/logout_icon"
-            android:title="Plane" />
+            android:title="Tank" />
     </group>
 
     <item android:title="Profile">
