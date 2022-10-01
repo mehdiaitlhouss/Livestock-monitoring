@@ -7,8 +7,7 @@
     android:background="@color/lightWhite"
     android:padding="20dp"
     tools:context=".common.OnBoarding">
-
-
+    
     <Button
         android:id="@+id/skip_btn"
         android:layout_width="wrap_content"

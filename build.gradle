@@ -1,12 +1,39 @@
 buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
     dependencies {
         classpath 'com.google.gms:google-services:4.3.13'
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    id 'com.android.application' version '7.2.1' apply false
-    id 'com.android.library' version '7.2.1' apply false
+    id 'com.android.application' version '7.2.2' apply false
+    id 'com.android.library' version '7.2.2' apply false
     id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin' version '2.0.1' apply false
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        def githubProperties = new Properties()
+        githubProperties.load(new FileInputStream(rootProject.file("github.properties")))
+        repositories {
+            maven {
+                name = "GitHubPackages"
+
+                url = uri("https://maven.pkg.github.com/Cuberto/liquid-swipe-android")
+                credentials {
+                    /** Create github.properties in root project folder file with
+                     ** gpr.usr=GITHUB_USER_ID & gpr.key=PERSONAL_ACCESS_TOKEN
+                     ** Or set env variable GPR_USER & GPR_API_KEY if not adding a properties file**/
+                    username = githubProperties['gpr.usr'] ?: System.getenv("GPR_USER")
+                    password = githubProperties['gpr.key'] ?: System.getenv("GPR_API_KEY")
+                }
+            }
+        }
+    }
 }
 
 task clean(type: Delete) {
