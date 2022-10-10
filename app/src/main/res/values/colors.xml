@@ -13,4 +13,6 @@
     <color name="lightWhite">#F5F5F5</color>
     <color name="yellow">#fece2f</color>
     <color name="transparent">#00000000</color>
+    <color name="pink">#f469a9</color>
+    <color name="bleu">#88bef5</color>
 </resources>

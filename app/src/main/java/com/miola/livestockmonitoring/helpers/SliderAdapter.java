@@ -23,21 +23,21 @@ public class SliderAdapter extends PagerAdapter {
             R.drawable.search_place,
             R.drawable.make_a_call,
             R.drawable.add_missing_place,
-            R.drawable.sit_back_and_relax,
+            R.drawable.sit_back_and_relax
     };
 
     private int headings[] = {
             R.string.first_slide_title,
             R.string.second_slide_title,
             R.string.third_slide_title,
-            R.string.fourth_slide_title,
+            R.string.fourth_slide_title
     };
 
     private int descriptions[] = {
             R.string.first_slide_desc,
             R.string.second_slide_desc,
             R.string.third_slide_desc,
-            R.string.fourth_slide_desc,
+            R.string.fourth_slide_desc
     };
 
     public SliderAdapter(Context context) {
@@ -67,7 +67,9 @@ public class SliderAdapter extends PagerAdapter {
 
         imageView.setImageResource(images[position]);
         heading.setText(headings[position]);
+        heading.setText("mido habibi");
         desc.setText(descriptions[position]);
+        desc.setText("zoz vlog");
 
         container.addView(view);
 
