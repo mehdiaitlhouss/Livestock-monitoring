@@ -1,5 +1,6 @@
 package com.miola.livestockmonitoring.onboarding;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.miola.livestockmonitoring.R;
+import com.miola.livestockmonitoring.SignIn;
 
 public class OnBoardingFragment2 extends Fragment {
 
@@ -18,5 +20,9 @@ public class OnBoardingFragment2 extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         ViewGroup root = (ViewGroup) inflater.inflate(R.layout.fragment_on_bording_2, container, false);
         return root;
+    }
+
+    public void onSkip(View view) {
+        startActivity(new Intent(getContext(), SignIn.class));
     }
 }

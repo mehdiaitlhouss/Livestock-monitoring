@@ -3,15 +3,71 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_main.xml" value="0.21014492753623187" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_on_boarding.xml" value="0.19114583333333332" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_second_splash_screen.xml" value="0.2" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/fragment_on_bording_1.xml" value="0.2" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/fragment_on_bording_2.xml" value="0.14855072463768115" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/fragment_on_bording_3.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/drawable-v24/share_icon.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/drawable/home_icon.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/font/aclonica.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/font/brandon_grotesque_black.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/layout/activity_bus.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/layout/activity_map.xml" value="0.1408514492753623" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/layout/activity_on_boarding.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/layout/activity_second.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/layout/header.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/layout/slides_layout.xml" value="0.264" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/LivestockMonitoring/app/src/main/res/menu/main_menu.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable-v24/home_icon.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable-v24/login_icon.xml" value="0.149" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable-v24/logout_icon.xml" value="0.149" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable-v24/rate_icon.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable-v24/share_icon.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable/dynamic_rv_bg.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable/dynamic_rv_item_layout.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable/notification_icon.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable/search_bg.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable/skip_icon.xml" value="0.149" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable/static_rv_bg.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable/static_rv_selector_bg.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_all_category.xml" value="0.176" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_bus.xml" value="0.21014492753623187" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_list_animals.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_map.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_on_boarding.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_second.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_second_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_sign_up.xml" value="0.176" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_user_profile.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/dynamic_nv_progress_bar.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/dynamic_rv_item_layout.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/fragment_on_bording_1.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/fragment_on_bording_2.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/fragment_on_bording_3.xml" value="0.152" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/header.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/slides_layout.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/static_rv_adapter.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/static_rv_item.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/menu/main_menu.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.149" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.149" />
       </map>
     </option>
   </component>
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
 </project>

@@ -26,6 +26,7 @@ public class SecondSplashScreenActivity extends AppCompatActivity {
 
     private Animation topAnimation;
     private Animation bottomAnimation;
+    private Animation onBoardingAnimation;
 
     ImageView logo;
     TextView appName;
@@ -46,6 +47,7 @@ public class SecondSplashScreenActivity extends AppCompatActivity {
         // Animations
         topAnimation = AnimationUtils.loadAnimation(this, R.anim.top_animation);
         bottomAnimation = AnimationUtils.loadAnimation(this, R.anim.bottom_animation);
+        onBoardingAnimation = AnimationUtils.loadAnimation(this, R.anim.on_boarding_animation);
 
         splashImg = findViewById(R.id.img);
         logo = findViewById(R.id.logo);
@@ -59,6 +61,7 @@ public class SecondSplashScreenActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.pager);
         pagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(pagerAdapter);
+        viewPager.setAnimation(onBoardingAnimation);
 
         splashImg.animate().translationY(-3000).setDuration(1000).setStartDelay(4000);
         logo.animate().translationY(-3000).setDuration(1000).setStartDelay(4000);
@@ -67,7 +70,6 @@ public class SecondSplashScreenActivity extends AppCompatActivity {
     }
 
     private class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
-
 
         public ScreenSlidePagerAdapter(@NonNull FragmentManager fm) {
             super(fm);
