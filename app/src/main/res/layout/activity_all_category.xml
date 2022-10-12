@@ -72,6 +72,8 @@
                     android:layout_alignParentBottom="true"
                     android:background="#00000000"
                     android:padding="20dp"
+                    android:onClick="getAnimals"
+                    android:tag="10"
                     android:text="EXPAND ALL"
                     android:textColor="@color/black" />
 
@@ -117,10 +119,12 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"
                     android:background="#00000000"
+                    android:onClick="getAnimals"
+                    android:tag="20"
                     android:padding="20dp"
-                    android:layout_alignParentRight="true"
                     android:text="EXPAND ALL"
                     android:textColor="@color/white" />
 
@@ -156,6 +160,8 @@
                     android:layout_alignParentBottom="true"
                     android:background="#00000000"
                     android:padding="20dp"
+                    android:onClick="getAnimals"
+                    android:tag="30"
                     android:text="EXPAND ALL"
                     android:textColor="@color/black" />
 
@@ -170,7 +176,7 @@
 
         </RelativeLayout>
 
-        <androidx.cardview.widget.CardView
+        <!--         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardBackgroundColor="#00000000"
@@ -210,8 +216,7 @@
 
             </RelativeLayout>
 
-        </androidx.cardview.widget.CardView>
-
+        </androidx.cardview.widget.CardView> -->
 
     </LinearLayout>
 

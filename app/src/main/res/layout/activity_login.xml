@@ -75,6 +75,7 @@
             android:layout_gravity="right"
             android:layout_margin="5dp"
             android:background="#00000000"
+            android:textColor="@color/black"
             android:elevation="0dp"
             android:text="Forget Password?" />
 

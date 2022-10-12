@@ -7,19 +7,29 @@
             android:title="Home" />
 
         <item
-            android:id="@+id/nav_cycle"
+            android:id="@+id/nav_map"
             android:icon="@drawable/map_icon"
             android:title="Map" />
 
         <item
-            android:id="@+id/nav_bus"
+            android:id="@+id/nav_animals"
             android:icon="@drawable/cow_icon"
             android:title="Animals" />
 
         <item
-            android:id="@+id/nav_plane"
-            android:icon="@drawable/logout_icon"
+            android:id="@+id/nav_tank"
+            android:icon="@drawable/water_tank_icon"
             android:title="Tank" />
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/security_camera_icon"
+            android:title="Camera" />
+
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/rain_icon"
+            android:title="Weather" />
     </group>
 
     <item android:title="Profile">

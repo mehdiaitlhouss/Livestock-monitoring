@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="24dp"
-                android:text="Traveling"
+                android:text="Hi Mehdi"
                 android:textSize="30sp"
                 app:fontFamily="@font/baloo"
                 app:layout_constraintEnd_toStartOf="@+id/imageView"
@@ -73,7 +73,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView"
                 app:layout_constraintTop_toBottomOf="@+id/toolbar"
-                app:srcCompat="@drawable/icon_login" />
+                app:srcCompat="@drawable/farmer_icon" />
 
             <LinearLayout
                 android:id="@+id/linearLayout"
@@ -114,8 +114,8 @@
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="15dp"
                             android:onClick="choseAction"
-                            app:srcCompat="@drawable/map_icon"
-                            android:tag="10"/>
+                            android:tag="10"
+                            app:srcCompat="@drawable/map_icon" />
                     </RelativeLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -137,7 +137,7 @@
                             android:layout_below="@id/imageView3"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
-                            android:text="Boating"
+                            android:text="Animal"
                             android:textSize="24sp"
                             app:fontFamily="@font/aclonica" />
 
@@ -149,7 +149,7 @@
                             android:layout_marginTop="15dp"
                             android:onClick="choseAction"
                             android:tag="20"
-                            app:srcCompat="@drawable/icon_login" />
+                            app:srcCompat="@drawable/animal_icon" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -183,7 +183,7 @@
                             android:layout_below="@id/bus1"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
-                            android:text="Bus"
+                            android:text="Farme"
                             android:textSize="24sp"
                             app:fontFamily="@font/aclonica" />
 
@@ -193,7 +193,9 @@
                             android:layout_height="75dp"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="15dp"
-                            app:srcCompat="@drawable/icon_login" />
+                            android:onClick="choseAction"
+                            android:tag="30"
+                            app:srcCompat="@drawable/farme_icon" />
                     </RelativeLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -215,7 +217,7 @@
                             android:layout_below="@id/train"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
-                            android:text="Train"
+                            android:text="Tank"
                             android:textSize="24sp"
                             app:fontFamily="@font/aclonica" />
 
@@ -224,8 +226,10 @@
                             android:layout_width="75dp"
                             android:layout_height="75dp"
                             android:layout_centerHorizontal="true"
+                            android:onClick="choseAction"
+                            android:tag="40"
                             android:layout_marginTop="15dp"
-                            app:srcCompat="@drawable/icon_login" />
+                            app:srcCompat="@drawable/water_tank_icon" />
                     </RelativeLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -259,7 +263,7 @@
                             android:layout_below="@id/cycle"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
-                            android:text="Bus"
+                            android:text="Camera"
                             android:textSize="24sp"
                             app:fontFamily="@font/aclonica" />
 
@@ -268,8 +272,10 @@
                             android:layout_width="75dp"
                             android:layout_height="75dp"
                             android:layout_centerHorizontal="true"
+                            android:onClick="choseAction"
+                            android:tag="50"
                             android:layout_marginTop="15dp"
-                            app:srcCompat="@drawable/icon_login" />
+                            app:srcCompat="@drawable/security_camera_icon" />
                     </RelativeLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -291,7 +297,7 @@
                             android:layout_below="@id/airplane"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
-                            android:text="Train"
+                            android:text="Weather"
                             android:textSize="24sp"
                             app:fontFamily="@font/aclonica" />
 
@@ -301,7 +307,9 @@
                             android:layout_height="75dp"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="15dp"
-                            app:srcCompat="@drawable/icon_login" />
+                            android:onClick="choseAction"
+                            android:tag="60"
+                            app:srcCompat="@drawable/rain_icon" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>

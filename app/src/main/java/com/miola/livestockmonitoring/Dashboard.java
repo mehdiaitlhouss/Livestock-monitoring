@@ -82,8 +82,12 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
         switch (menuItem.getItemId())
         {
             case R.id.nav_home:     break;
-            case R.id.nav_bus:      startActivity(new Intent(Dashboard.this, Bus.class));
-                                    break;
+            case R.id.nav_map:     break;
+            case R.id.nav_animals:     break;
+            case R.id.nav_tank:     break;
+            case R.id.nav_camera:     break;
+            case R.id.nav_weather:     break;
+            case R.id.nav_login:     break;
             case R.id.nav_profile:  startActivity(new Intent(Dashboard.this, UserProfile.class));
                                     break;
             case R.id.nav_logout:   mAuth.signOut();
@@ -94,6 +98,7 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
                                     startActivity(new Intent(Dashboard.this, SignIn.class));
                                     break;
             case R.id.nav_share: Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show(); break;
+            case R.id.nav_rate:     break;
         }
         drawerLayout.closeDrawer(GravityCompat.START); return true;
     }
@@ -104,6 +109,10 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
         {
             case 10 : startActivity(new Intent(this, MapLocation.class));break;
             case 20 : startActivity(new Intent(this, AllCategory.class));break;
+            case 30 : startActivity(new Intent(this, AllCategory.class));break; // farme activity
+            case 40 : startActivity(new Intent(this, AllCategory.class));break; // truk activity
+            case 50 : startActivity(new Intent(this, AllCategory.class));break; // camera activity
+            case 60 : startActivity(new Intent(this, AllCategory.class));break; // weather activity
         }
     }
 }

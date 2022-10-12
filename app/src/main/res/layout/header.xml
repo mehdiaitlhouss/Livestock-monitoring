@@ -16,14 +16,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Traveling"
+        android:text="Livestock Monitoring"
         android:textSize="24sp"
         app:fontFamily="@font/baloo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="www.taimoorsikander.com"
+        android:text="www.livestockmonitoring.com"
         android:textSize="14sp"
         app:fontFamily="@font/aclonica" />
 
