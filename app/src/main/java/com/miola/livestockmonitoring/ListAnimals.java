@@ -4,18 +4,26 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.icu.text.Edits;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.miola.livestockmonitoring.DRVInterface.LoadMore;
+import com.miola.livestockmonitoring.helpers.CurrentUser;
+import com.miola.livestockmonitoring.model.Cow;
 import com.miola.livestockmonitoring.model.DynamicRVAdapter;
 import com.miola.livestockmonitoring.model.DynamicRVModel;
 import com.miola.livestockmonitoring.model.StaticRvAdapter;
 import com.miola.livestockmonitoring.model.StaticRvModel;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.UUID;
 
 public class ListAnimals extends AppCompatActivity {
@@ -45,24 +53,13 @@ public class ListAnimals extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         recyclerView.setAdapter(staticRvAdapter);
 
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
-        items.add(new DynamicRVModel("Cow"));
+        for (Iterator<String> it = CurrentUser.getCurrentUser().getCows().keySet().iterator(); it.hasNext();) {
+            items.add(new DynamicRVModel(it.next()));
+        }
 
+        for (DynamicRVModel d : items) {
+            System.out.println(d.getName());
+        }
 
         RecyclerView drv = findViewById(R.id.rv_2);
         drv.setLayoutManager(new LinearLayoutManager(this));

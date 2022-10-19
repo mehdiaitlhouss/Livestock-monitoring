@@ -32,7 +32,7 @@ class ItemViewHolder extends RecyclerView.ViewHolder {
 
     public ItemViewHolder(@NonNull View itemView) {
         super(itemView);
-        name = itemView.findViewById(R.id.name);
+        name = itemView.findViewById(R.id.nameAnimalDynamicRv);
     }
 }
 
@@ -81,7 +81,7 @@ public class DynamicRVAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
 
         if (viewType == VIEW_TYPE_ITEM) {
             View view = LayoutInflater.from(activity).inflate(R.layout.dynamic_rv_item_layout, parent, false);
-            return new LoadingViewHolder(view);
+            return new ItemViewHolder(view);
         }
         else if (viewType == VIEW_TYPE_LOADING) {
             View view = LayoutInflater.from(activity).inflate(R.layout.dynamic_nv_progress_bar, parent, false);
