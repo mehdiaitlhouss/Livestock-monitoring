@@ -15,4 +15,8 @@
     <color name="transparent">#00000000</color>
     <color name="pink">#f469a9</color>
     <color name="bleu">#88bef5</color>
+    <color name="colorBackground">#EBEBEB</color>
+    <color name="colorTrendingStart">#00B09B</color>
+    <color name="colorTrendingEnd">#96C93D</color>
+    <color name="colorDivider">#D6D6D6</color>
 </resources>

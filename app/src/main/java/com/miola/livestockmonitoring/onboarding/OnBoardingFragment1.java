@@ -13,7 +13,6 @@ import androidx.fragment.app.Fragment;
 
 import com.miola.livestockmonitoring.R;
 import com.miola.livestockmonitoring.SignIn;
-import com.miola.livestockmonitoring.common.OnBoarding;
 
 public class OnBoardingFragment1 extends Fragment {
 

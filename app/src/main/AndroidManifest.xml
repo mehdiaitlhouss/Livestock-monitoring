@@ -18,7 +18,15 @@
         android:theme="@style/Theme.LivestockMonitoring"
         tools:targetApi="31">
         <activity
-            android:name=".SecondSplashScreenActivity"
+            android:name=".Dashboard"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".Sensors"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +36,7 @@
         </activity>
         <activity
             android:name=".ListAnimals"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".AllCategory"
             android:exported="false" />
@@ -40,13 +48,7 @@
             android:name=".common.OnBoarding"
             android:exported="false" />
         <activity
-            android:name=".Bus"
-            android:exported="false" />
-        <activity
-            android:name=".SecondActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Dashboard"
+            android:name=".Home"
             android:exported="false" />
         <activity
             android:name=".UserProfile"
@@ -57,10 +59,6 @@
         <activity
             android:name=".SignIn"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false">
-        </activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -71,8 +69,10 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
     </application>
+
 </manifest>

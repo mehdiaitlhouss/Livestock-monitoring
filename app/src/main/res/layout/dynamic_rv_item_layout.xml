@@ -8,6 +8,7 @@
     android:layout_marginRight="10dp">
 
     <ImageView
+        android:id="@+id/imgAnimalDynamicRv"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/cow_icon"

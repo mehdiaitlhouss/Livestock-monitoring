@@ -185,7 +185,7 @@ public class SignUp extends AppCompatActivity {
                     String userId = firebaseUser.getUid();
                     databaseReference.child(userId).setValue(user);
                     Toast.makeText(SignUp.this, "User registered successfully", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(SignUp.this, Dashboard.class));
+                    startActivity(new Intent(SignUp.this, Home.class));
                 }else{
                     Toast.makeText(SignUp.this, "Registration Error: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                 }

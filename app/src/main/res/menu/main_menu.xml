@@ -2,6 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/dashboard_icon"
+            android:title="Dashboard" />
+
+        <item
             android:id="@+id/nav_home"
             android:icon="@drawable/home_icon"
             android:title="Home" />
@@ -15,6 +20,11 @@
             android:id="@+id/nav_animals"
             android:icon="@drawable/cow_icon"
             android:title="Animals" />
+
+        <item
+            android:id="@+id/nav_farme"
+            android:icon="@drawable/farme_icon"
+            android:title="Farme" />
 
         <item
             android:id="@+id/nav_tank"

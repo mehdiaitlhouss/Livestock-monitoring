@@ -14,14 +14,18 @@ public class User
     private String phoneNumber;
     private String password;
     private Map<String, Cow> cows = new HashMap<>();
+    private Map<String, Sheep> sheeps = new HashMap<>();
+    private Map<String, Chicken> chickens = new HashMap<>();
 
-    public User(String name, String username, String email, String phoneNumber, String password, Map<String, Cow> cows) {
+    public User(String name, String username, String email, String phoneNumber, String password, Map<String, Cow> cows, Map<String, Sheep> sheeps, Map<String, Chicken> chickens) {
         this.name = name;
         this.username = username;
         this.email = email;
         this.phoneNumber = phoneNumber;
         this.password = password;
         this.cows = cows;
+        this.sheeps = sheeps;
+        this.chickens = chickens;
     }
 
     public User(String name, String username, String email, String phoneNumber, String password) {
@@ -83,6 +87,22 @@ public class User
         this.cows = cows;
     }
 
+    public Map<String, Sheep> getSheeps() {
+        return sheeps;
+    }
+
+    public void setSheeps(Map<String, Sheep> sheeps) {
+        this.sheeps = sheeps;
+    }
+
+    public Map<String, Chicken> getChickens() {
+        return chickens;
+    }
+
+    public void setChickens(Map<String, Chicken> chickens) {
+        this.chickens = chickens;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -92,6 +112,8 @@ public class User
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", password='" + password + '\'' +
                 ", cows=" + cows +
+                ", sheeps=" + sheeps +
+                ", chickens=" + chickens +
                 '}';
     }
 }

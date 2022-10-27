@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -29,10 +30,12 @@ class LoadingViewHolder extends RecyclerView.ViewHolder {
 class ItemViewHolder extends RecyclerView.ViewHolder {
 
     public TextView name;
+    public ImageView img;
 
     public ItemViewHolder(@NonNull View itemView) {
         super(itemView);
         name = itemView.findViewById(R.id.nameAnimalDynamicRv);
+        img = itemView.findViewById(R.id.imgAnimalDynamicRv);
     }
 }
 
@@ -96,11 +99,12 @@ public class DynamicRVAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         if (holder instanceof ItemViewHolder) {
             DynamicRVModel item = items.get(position);
             ItemViewHolder viewHolder = (ItemViewHolder) holder;
-            viewHolder.name.setText(items.get(position).getName());
+            viewHolder.name.setText(item.getName());
+            viewHolder.img.setImageResource(item.getImg());
         }
         else if (holder instanceof LoadingViewHolder) {
             LoadingViewHolder loadingViewHolder = (LoadingViewHolder) holder;
-         }
+        }
     }
 
     @Override

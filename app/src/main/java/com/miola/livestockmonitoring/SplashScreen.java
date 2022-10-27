@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import android.os.Bundle;
 import android.view.WindowManager;
@@ -20,7 +19,7 @@ import com.miola.livestockmonitoring.onboarding.OnBoardingFragment1;
 import com.miola.livestockmonitoring.onboarding.OnBoardingFragment2;
 import com.miola.livestockmonitoring.onboarding.OnBoardingFragment3;
 
-public class SecondSplashScreenActivity extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity {
 
     private static int SPLASH_SCREEN = 5000;
 
@@ -42,7 +41,7 @@ public class SecondSplashScreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_second_splash_screen);
+        setContentView(R.layout.activity_splash_screen);
 
         // Animations
         topAnimation = AnimationUtils.loadAnimation(this, R.anim.top_animation);

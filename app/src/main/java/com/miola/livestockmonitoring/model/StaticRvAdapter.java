@@ -37,6 +37,7 @@ public class StaticRvAdapter extends RecyclerView.Adapter<StaticRvAdapter.Static
         StaticRvModel currentItem = items.get(position);
         holder.imageView.setImageResource(currentItem.getImage());
         holder.textView.setText(currentItem.getText());
+        holder.linearLayout.setBackgroundResource(currentItem.getBackground());
         holder.linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

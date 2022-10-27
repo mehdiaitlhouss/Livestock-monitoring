@@ -2,9 +2,14 @@ package com.miola.livestockmonitoring.model;
 
 public class DynamicRVModel {
     String name;
+    int img;
 
-    public DynamicRVModel(String name) {
+    public DynamicRVModel(String name, int img) {
         this.name = name;
+        this.img = img;
+    }
+
+    public DynamicRVModel() {
     }
 
     public String getName() {
@@ -13,5 +18,13 @@ public class DynamicRVModel {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getImg() {
+        return img;
+    }
+
+    public void setImg(int img) {
+        this.img = img;
     }
 }
