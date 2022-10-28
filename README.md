@@ -24,16 +24,15 @@ $ git clone https://github.com/mehdiaitlhouss/Livestock-monitoring.git
 ## Project Architecture
 
 <p align=center>
+    <img src="https://i.postimg.cc/wxrFBsXT/Whats-App-Image-2022-10-28-at-02-48-35.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-35"/>
+    <img src="https://i.postimg.cc/pr3BcgWn/Whats-App-Image-2022-10-28-at-02-48-28.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-28"/>
+    <img src="https://i.postimg.cc/FzYZZ944/Whats-App-Image-2022-10-28-at-02-48-27-2.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-27-2"/>
+    <img src="https://i.postimg.cc/NMfbK6CL/Whats-App-Image-2022-10-28-at-02-48-27-1.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-27-1"/>
+    <img src="https://i.postimg.cc/HxZzXrFz/Whats-App-Image-2022-10-28-at-02-48-27-3.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-27-3"/>
     <img src="https://i.postimg.cc/DzcBfjgt/Whats-App-Image-2022-10-28-at-02-48-26.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-26"/>
     <img src="https://i.postimg.cc/NjmdSfrG/Whats-App-Image-2022-10-28-at-02-48-26-1.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-26-1"/>
     <img src="https://i.postimg.cc/DzhxTkqr/Whats-App-Image-2022-10-28-at-02-48-26-2.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-26-2"/>
     <img src="https://i.postimg.cc/ncQ29c2K/Whats-App-Image-2022-10-28-at-02-48-27.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-27"/>
-    <img src="https://i.postimg.cc/NMfbK6CL/Whats-App-Image-2022-10-28-at-02-48-27-1.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-27-1"/>
-    <img src="https://i.postimg.cc/FzYZZ944/Whats-App-Image-2022-10-28-at-02-48-27-2.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-27-2"/>
-    <img src="https://i.postimg.cc/HxZzXrFz/Whats-App-Image-2022-10-28-at-02-48-27-3.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-27-3"/>
-    <img src="https://i.postimg.cc/pr3BcgWn/Whats-App-Image-2022-10-28-at-02-48-28.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-28"/>
-    <img src="https://i.postimg.cc/wxrFBsXT/Whats-App-Image-2022-10-28-at-02-48-35.jpg" alt="Whats-App-Image-2022-10-28-at-02-48-35"/>
-
 </p>
 
 ## Contributing
