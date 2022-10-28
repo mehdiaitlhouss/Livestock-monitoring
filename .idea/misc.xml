@@ -42,7 +42,7 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/drawable/white_rectangle_background.xml" value="0.1" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_all_category.xml" value="0.2" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_bus.xml" value="0.21014492753623187" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_dashboard.xml" value="0.176" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_dashboard_secod.xml" value="0.176" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/iot-project/LivestockMonitoring/app/src/main/res/layout/activity_list_animals.xml" value="0.2" />
@@ -81,7 +81,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.264" />
+        <option name="scale" value="0.1" />
       </ProjectState>
     </option>
   </component>
