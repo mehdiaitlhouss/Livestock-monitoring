@@ -1,8 +1,8 @@
-# Ecommerce App (SCS)
+# Livestock monitoring App
 
 ## Description
 
-An ecommerce app that allows users to buy smart conected suitcases :luggage:.
+A mobile application enabling users to oversee their livestock :luggage:.
 
 ## Technologies Used :man_technologist:
 
