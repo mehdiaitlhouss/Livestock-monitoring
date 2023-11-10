@@ -2,7 +2,7 @@
 
 ## Description
 
-A mobile application enabling users to oversee their livestock :luggage:.
+A mobile application enabling users to oversee their livestock.
 
 ## Technologies Used :man_technologist:
 
